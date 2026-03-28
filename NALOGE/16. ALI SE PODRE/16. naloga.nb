@@ -1,0 +1,496 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21834,        488]
+NotebookOptionsPosition[     20653,        462]
+NotebookOutlinePosition[     21062,        478]
+CellTagsIndexPosition[     21019,        475]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["16. NALOGA: ALI SE PODRE?", "Title",
+ CellChangeTimes->{{3.8731237718812046`*^9, 3.8731237720101624`*^9}, {
+  3.873126589613948*^9, 
+  3.873126606271953*^9}},ExpressionUUID->"9bd89139-4b73-4b33-b1c5-\
+a10d88281dc4"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.873127116050954*^9, 
+  3.873127117155965*^9}},ExpressionUUID->"32770899-661c-4cdb-b3de-\
+9674a2fc883d"],
+
+Cell["\<\
+V Minecraftu gradimo raznorazne skulpture, ki so v enem kosu. Primerki \
+skulptur:\
+\>", "Text",
+ CellChangeTimes->{{3.8731258545363913`*^9, 3.8731258810584526`*^9}, {
+  3.873126004745482*^9, 3.8731260610727262`*^9}, {3.8731261341917667`*^9, 
+  3.87312614200777*^9}, {3.873126465035835*^9, 
+  3.8731264807578936`*^9}},ExpressionUUID->"4b9b0294-9203-43f7-bd43-\
+baf34c4030bd"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {Boxed -> False, Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJyNkMENQFAQRCdcHJVAJbYGJUiclaglJXAh8TZjSVzen7yZ7Lhs89pIGq6/
+VfUd0zev3isvc+R/cwpTFGYP8vTQ3xn/zelnnh7rZ4/hzKc7gPf06s25n3l6
+yvuE6QXn7nRP8t3sAWc+9T78BEWFNV0=
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 7, 8}, {1, 2, 6, 5}, {
+             3, 4, 8, 7}, {4, 1, 5, 8}, {2, 9, 10, 3}, {6, 11, 12, 7}, {2, 9, 
+             11, 6}, {10, 3, 7, 12}, {9, 13, 14, 10}, {11, 15, 16, 12}, {9, 
+             13, 15, 11}, {10, 14, 17, 18}, {12, 16, 19, 20}, {14, 17, 19, 
+             16}, {17, 18, 20, 19}, {18, 10, 12, 20}, {13, 21, 22, 14}, {13, 
+             21, 23, 15}, {21, 22, 24, 23}, {22, 14, 16, 24}, {25, 26, 27, 
+             28}, {23, 24, 27, 26}, {24, 16, 28, 27}, {16, 15, 25, 28}, {29, 
+             30, 23, 15}, {31, 32, 26, 25}, {29, 30, 32, 31}, {30, 23, 26, 
+             32}, {15, 29, 31, 25}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      ImageSize->{138.9999999999999, Automatic},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      Method->{"ShrinkWrap" -> True}], 
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {
+         Boxed -> False, ImageSize -> {101.99999999999949`, Automatic}, 
+          Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJxTTMoPSmViYGBQAGJmBlzggz0qjUucVHXE2oMuD+fvx+lk7Pr3E2cO3B1o
+6knVR8h+XPaQ6m5c5hHrLoYDOOxHE4fLH8BuPlzcAbs5MHFC6uHuRFOPEQ4w
+fWjuQRdHV48RDnBxAAMLSp8=
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 3, 2}, {6, 7, 4, 3}, {
+             8, 9, 7, 10}, {11, 1, 4, 12}, {8, 9, 1, 11}, {7, 10, 12, 4}, {10,
+              8, 11, 12}, {13, 14, 5, 9}, {15, 16, 2, 1}, {13, 14, 16, 15}, {
+             14, 5, 2, 16}, {9, 13, 15, 1}, {17, 18, 5, 9}, {18, 19, 6, 5}, {
+             19, 20, 7, 6}, {20, 17, 9, 7}, {21, 22, 23, 24}, {21, 22, 18, 
+             17}, {24, 21, 17, 20}, {22, 25, 26, 23}, {18, 27, 28, 19}, {22, 
+             25, 27, 18}, {25, 26, 28, 27}, {26, 23, 19, 28}, {24, 23, 29, 
+             30}, {20, 19, 31, 32}, {23, 29, 31, 19}, {29, 30, 32, 31}, {30, 
+             24, 20, 32}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      ImageSize->{101.99999999999949`, Automatic},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      Method->{"ShrinkWrap" -> True}], 
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {Boxed -> False, Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJxTTMoPSmViYGBQAWJmBkLggz1+cULyhMxFV4cuTqw6uPh+HOrQxNHVY9iH
+Lr4flcZlH4a5OMzB6b4DqOJwcAC/egyAJo5hPrq7cYhj+AMHDbcP3Rw0cVz2
+Ees+Yu0h2X247GHAbw5GfKHbbw8Apf9h3w==
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 7, 8}, {2, 3, 7, 6}, {
+             3, 4, 8, 7}, {4, 1, 5, 8}, {9, 10, 2, 1}, {11, 12, 6, 5}, {9, 10,
+              12, 11}, {10, 2, 6, 12}, {13, 9, 1, 14}, {15, 11, 5, 16}, {1, 
+             14, 16, 5}, {14, 13, 15, 16}, {17, 18, 11, 15}, {19, 20, 18, 
+             17}, {20, 9, 11, 18}, {21, 22, 20, 19}, {22, 23, 9, 20}, {23, 24,
+              13, 9}, {25, 21, 19, 26}, {24, 27, 28, 13}, {27, 25, 26, 28}, {
+             29, 30, 31, 32}, {29, 30, 21, 25}, {31, 32, 27, 24}, {32, 29, 25,
+              27}, {30, 33, 34, 31}, {30, 33, 22, 21}, {33, 34, 23, 22}, {34, 
+             31, 24, 23}, {35, 17, 15, 36}, {26, 19, 17, 35}, {13, 28, 36, 
+             15}, {28, 26, 35, 36}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      ImageSize->{140.0000000000001, Automatic},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      Method->{"ShrinkWrap" -> True}]},
+    {
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {Boxed -> False, Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJyNksENgCAQBIl+aMO/PXg1WIKJb0vEkixBP5Aw5wIkfoZl7jxYjms/pxDC
++n1z6K1na/Pefs/LHPlwLok6SZxHnh5X9/73Z+7+F3l6lN/1lca48ki/CT94
+WVZ7yKOoG5EnZ13mnV/NbWvnlT9a7VG89C38mbu5g9Pv5sW81bz0ae28uy9w
+d99854W/UfBmYw==
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 7, 8}, {1, 2, 6, 5}, {
+             2, 3, 7, 6}, {3, 4, 8, 7}, {9, 1, 4, 10}, {11, 5, 8, 12}, {9, 1, 
+             5, 11}, {4, 10, 12, 8}, {13, 9, 10, 14}, {15, 11, 12, 16}, {10, 
+             14, 16, 12}, {14, 13, 15, 16}, {17, 18, 9, 13}, {17, 18, 19, 
+             20}, {18, 9, 11, 19}, {13, 17, 20, 15}, {21, 22, 23, 24}, {20, 
+             19, 22, 21}, {19, 11, 23, 22}, {11, 15, 24, 23}, {25, 20, 15, 
+             26}, {27, 21, 24, 28}, {25, 20, 21, 27}, {26, 25, 27, 28}, {26, 
+             15, 16, 29}, {15, 16, 30, 24}, {16, 29, 31, 30}, {29, 26, 28, 
+             31}, {32, 33, 34, 35}, {28, 24, 33, 32}, {30, 31, 35, 34}, {31, 
+             28, 32, 35}, {24, 23, 36, 30}, {33, 37, 38, 34}, {24, 23, 37, 
+             33}, {23, 36, 38, 37}, {34, 38, 39, 40}, {36, 41, 39, 38}, {41, 
+             42, 40, 39}, {42, 30, 34, 40}, {16, 12, 43, 44}, {16, 12, 36, 
+             30}, {12, 43, 41, 36}, {43, 44, 42, 41}, {44, 16, 30, 42}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      ImageSize->{140.99999999999983`, 131.42057110972496`},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      Method->{"ShrinkWrap" -> True},
+      ViewPoint->{-2.670319357540871, 
+       1.4457036585331635`, -1.4930959314278294`},
+      ViewVertical->{-0.09976802932086068, 
+       0.12334696941297853`, -0.987335741003062}], 
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {
+         Boxed -> False, ImageSize -> {136.9999999999954, 258.6666666666667}, 
+          Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}, 
+          ViewPoint -> {-2.5722906266393233`, -2.1201120474519715`, \
+-0.5817609804313857}, 
+          ViewVertical -> {-0.4764316537032833, -0.5171599525744329, \
+-0.71102634466155}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJyNkbENgDAMBC1oKCmyAB1bJDMwAhI1I7ISI0DjFBc+xhJCOl6XJ172czsG
+M1vfZ7Ro7tzn0ffIyxz531zll8gFXHkqL98e580gTw97TMLvnMM8PfQ398Ac
+eLM/0UN5ar/c5z7hf3LfPJd7Ql7di+oziz7O6WdecZ8kziX3t3P6U3kAlM5K
+5Q==
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 7, 8}, {2, 3, 7, 6}, {
+             3, 4, 8, 7}, {4, 1, 5, 8}, {9, 10, 2, 1}, {9, 10, 11, 12}, {1, 9,
+              12, 5}, {10, 13, 14, 2}, {11, 15, 16, 6}, {10, 13, 15, 11}, {14,
+              2, 6, 16}, {13, 17, 18, 14}, {15, 19, 20, 16}, {13, 17, 19, 
+             15}, {17, 18, 20, 19}, {18, 14, 16, 20}, {12, 11, 21, 22}, {11, 
+             6, 23, 21}, {6, 5, 24, 23}, {5, 12, 22, 24}, {25, 26, 27, 28}, {
+             22, 21, 26, 25}, {21, 23, 27, 26}, {24, 22, 25, 28}, {24, 23, 29,
+              30}, {23, 29, 31, 27}, {29, 30, 32, 31}, {30, 24, 28, 32}, {28, 
+             27, 33, 34}, {27, 31, 35, 33}, {31, 32, 36, 35}, {32, 28, 34, 
+             36}, {37, 38, 39, 40}, {34, 33, 38, 37}, {33, 35, 39, 38}, {35, 
+             36, 40, 39}, {36, 34, 37, 40}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      ImageSize->{136.9999999999954, 258.6666666666667},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      ViewPoint->{-2.5722906266393233`, -2.1201120474519715`, \
+-0.5817609804313857},
+      ViewVertical->{-0.4764316537032833, -0.5171599525744329, \
+-0.71102634466155}], 
+     Graphics3DBox[
+      TagBox[
+       DynamicModuleBox[{Typeset`mesh = {
+        MeshRegion, {Boxed -> False, Lighting -> {{"Ambient", 
+             GrayLevel[0.45]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{2, 0, 2}]}, {"Directional", 
+             GrayLevel[0.33], 
+             ImageScaled[{2, 2, 2}]}, {"Directional", 
+             GrayLevel[0.3], 
+             ImageScaled[{0, 2, 2}]}}}}}, 
+        TagBox[GraphicsComplex3DBox[CompressedData["
+1:eJxTTMoPSmViYGBQAWJmBkLggz1+cULyhMxFV4cuTqo6BgccFqKJo6vHcC+6
+OJH6iTUXHXAQEEc3B109TB5dPc7w24/dPejicP37cZiLLr4flYabQ0Ac3R+E
+xDHCGV0c3T8M2MUx4ucAdnvRxdHVY4QzXBwA9ANNvw==
+          "], 
+          {Hue[0.6, 0.3, 0.85], EdgeForm[Hue[0.6, 0.3, 0.75]], 
+           
+           TagBox[PolyhedronBox[{{{1, 2, 3, 4}, {5, 6, 7, 8}, {4, 1, 5, 8}, {
+             4, 3, 9, 10}, {8, 7, 11, 12}, {3, 9, 11, 7}, {9, 10, 12, 11}, {
+             10, 4, 8, 12}, {6, 13, 14, 7}, {15, 3, 7, 14}, {16, 17, 18, 
+             15}, {13, 19, 20, 14}, {16, 17, 19, 13}, {17, 18, 20, 19}, {18, 
+             15, 14, 20}, {21, 22, 23, 24}, {22, 23, 15, 16}, {23, 24, 3, 
+             15}, {24, 21, 2, 3}, {25, 26, 22, 21}, {25, 26, 27, 28}, {26, 22,
+              16, 27}, {21, 25, 28, 2}, {29, 30, 13, 6}, {28, 27, 30, 29}, {
+             27, 16, 13, 30}, {31, 28, 2, 1}, {32, 29, 6, 5}, {1, 31, 32, 
+             5}, {33, 34, 28, 31}, {35, 36, 29, 32}, {33, 34, 36, 35}, {34, 
+             28, 29, 36}, {31, 33, 35, 32}}}],
+            Annotation[#, "Geometry"]& ]}],
+         MouseAppearanceTag["LinkHand"]],
+        AllowKernelInitialization->False],
+       "MeshGraphics3D",
+       AutoDelete->True,
+       Editable->False,
+       Selectable->False],
+      Boxed->False,
+      DefaultBaseStyle->{
+       "MeshGraphics3D", FrontEnd`GraphicsHighlightColor -> Hue[0.1, 1, 0.7]},
+      Lighting->{{"Ambient", 
+         GrayLevel[0.45]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{2, 0, 2}]}, {"Directional", 
+         GrayLevel[0.33], 
+         ImageScaled[{2, 2, 2}]}, {"Directional", 
+         GrayLevel[0.3], 
+         ImageScaled[{0, 2, 2}]}},
+      Method->{"ShrinkWrap" -> True}]}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Input",ExpressionUUID->"1cd641e5-810b-44a4-a069-\
+089c27d1c91f"],
+
+Cell[TextData[{
+ "Mejne ploskve skulptur so podane v seznamu ",
+ StyleBox["Ploskvekve",
+  FontWeight->"Bold"],
+ ". Vsak element iz ",
+ StyleBox["Ploskvekve",
+  FontWeight->"Bold"],
+ " je seznam mejnih ploskev ene skulpture. Vsaka ploskev je podana kot seznam \
+ogli\[SHacek]\[CHacek].\nKoliko skulptur se podre, \[CHacek]e jih postavimo \
+na ravna tla? \[CapitalCHacek]e je skulptura na meji tega, da se podre, potem \
+se podre.\nPomagaj si s poglavjem \[OpenCurlyDoubleQuote]\[CapitalSHacek]E \
+NEKAJ O MESHIH\[CloseCurlyDoubleQuote] iz:"
+}], "Text",
+ CellChangeTimes->{{3.873126080959728*^9, 3.8731261180737114`*^9}, {
+  3.8731261579361115`*^9, 3.8731264435498557`*^9}, {3.8731264940448675`*^9, 
+  3.8731265846149454`*^9}, {3.8731266540697527`*^9, 3.8731267271178017`*^9}, {
+  3.8731267580778217`*^9, 3.873126767653821*^9}, {3.8731268126528454`*^9, 
+  3.8731268258648467`*^9}, {3.87312702860395*^9, 3.8731270649239173`*^9}, {
+  3.873127416938984*^9, 
+  3.87312741793799*^9}},ExpressionUUID->"69814af9-9127-45e1-a5a8-\
+4996a674eea1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SystemOpen", "[", 
+   RowBox[{
+    RowBox[{"ParentDirectory", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "2"}], "]"}], "<>", 
+    "\"\<\\\\UKAZI\\\\kon\[CHacek]ani ukazi\\\\10) REGIONSI.nb\>\""}], "]"}], 
+  ";"}]], "Code",
+ CellChangeTimes->{{3.8731268299508104`*^9, 3.873126872455823*^9}, {
+  3.8731269837758865`*^9, 3.873127001036889*^9}},
+ CellLabel->
+  "In[319]:=",ExpressionUUID->"e1aa28f4-03e2-4244-b0f9-e6a87c7eaf76"],
+
+Cell["Tam najde\[SHacek] skoraj vse, kar rabi\[SHacek].", "Text",
+ CellChangeTimes->{{3.8731270852189217`*^9, 
+  3.873127103411933*^9}},ExpressionUUID->"124b55ca-0854-44ec-8ceb-\
+e8aae8c152ac"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.873127126228989*^9, 3.873127136034943*^9}, {
+  3.873127474218031*^9, 
+  3.8731274744190507`*^9}},ExpressionUUID->"c686eb92-0a1d-45c1-91ce-\
+c547984a1406"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Ploskvekve", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+      "\"\<Ploskvekve.mx\>\""}], "]"}]}], ";"}], "\n", "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.872870052060219*^9, 3.8728702255254173`*^9}, {
+   3.8728702845365467`*^9, 3.872870451565134*^9}, {3.872870488846095*^9, 
+   3.872870510013999*^9}, {3.8728705420221977`*^9, 3.872870573856453*^9}, {
+   3.8728706103345747`*^9, 3.872870629797736*^9}, {3.872870668286271*^9, 
+   3.8728706699420743`*^9}, {3.872870727049943*^9, 3.8728707419592733`*^9}, {
+   3.872871067731243*^9, 3.8728710704293394`*^9}, {3.872871242214466*^9, 
+   3.872871292086137*^9}, {3.8728714349992123`*^9, 3.8728714372025433`*^9}, {
+   3.872871639099777*^9, 3.8728716644848843`*^9}, {3.8728718244988823`*^9, 
+   3.872871899670745*^9}, {3.8728719327829227`*^9, 3.8728719392388144`*^9}, {
+   3.872871983827143*^9, 3.8728720149249296`*^9}, {3.8728720571597986`*^9, 
+   3.872872139681285*^9}, {3.872872181161133*^9, 3.8728722089288273`*^9}, {
+   3.872872428002264*^9, 3.872872463921212*^9}, {3.872872497923187*^9, 
+   3.8728725384285374`*^9}, {3.872872830422411*^9, 3.8728728569697*^9}, {
+   3.872874046826872*^9, 3.8728740619265895`*^9}, {3.872874106142727*^9, 
+   3.872874108334402*^9}, {3.872875752794915*^9, 3.8728757608201294`*^9}, {
+   3.872875816742902*^9, 3.8728758476927137`*^9}, {3.8728762955234156`*^9, 
+   3.8728763551182394`*^9}, {3.872876700443007*^9, 3.8728767075034523`*^9}, {
+   3.8728767612659225`*^9, 3.872876824979932*^9}, {3.872876964989281*^9, 
+   3.8728769942171016`*^9}, {3.8728770719394445`*^9, 3.872877118675416*^9}, {
+   3.8728775736544857`*^9, 3.872877647603052*^9}, {3.8728777694616365`*^9, 
+   3.8728778265018797`*^9}, {3.8729014546061993`*^9, 
+   3.8729016093217335`*^9}, {3.872901642377221*^9, 3.872901680119526*^9}, {
+   3.8729020726794257`*^9, 3.8729020743116837`*^9}, 3.8729021098905115`*^9, {
+   3.87290250424973*^9, 3.8729025507377367`*^9}, {3.87290393996476*^9, 
+   3.8729041093333864`*^9}, 3.8729041896855993`*^9, {3.8729052688165874`*^9, 
+   3.872905280815874*^9}, {3.8729087688600817`*^9, 3.872908772204688*^9}, {
+   3.8729101297926755`*^9, 3.8729101325645494`*^9}, {3.8731241752044735`*^9, 
+   3.8731242279307213`*^9}, {3.8731243083039627`*^9, 3.873124399361046*^9}, {
+   3.8731251455578766`*^9, 3.8731251492688537`*^9}, {3.873125358621998*^9, 
+   3.873125507791216*^9}, {3.8731256695642767`*^9, 3.8731256933252926`*^9}, {
+   3.8731257253393097`*^9, 3.87312572698831*^9}, 
+   3.8731276538660707`*^9},ExpressionUUID->"946237fa-ae73-4eac-a93b-\
+f00e49b53659"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 765.75},
+WindowMargins->{{Automatic, 71.25}, {Automatic, 145.5}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f3b3d3ed-6d80-4938-bf99-9f1976747628"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 221, 4, 74, "Title",ExpressionUUID->"9bd89139-4b73-4b33-b1c5-a10d88281dc4"],
+Cell[804, 28, 152, 3, 39, "Subtitle",ExpressionUUID->"32770899-661c-4cdb-b3de-9674a2fc883d"],
+Cell[959, 33, 385, 8, 27, "Text",ExpressionUUID->"4b9b0294-9203-43f7-bd43-baf34c4030bd"],
+Cell[1347, 43, 14577, 321, 305, "Input",ExpressionUUID->"1cd641e5-810b-44a4-a069-089c27d1c91f"],
+Cell[15927, 366, 1034, 20, 82, "Text",ExpressionUUID->"69814af9-9127-45e1-a5a8-4996a674eea1"],
+Cell[16964, 388, 493, 12, 39, "Code",ExpressionUUID->"e1aa28f4-03e2-4244-b0f9-e6a87c7eaf76"],
+Cell[17460, 402, 193, 3, 27, "Text",ExpressionUUID->"124b55ca-0854-44ec-8ceb-e8aae8c152ac"],
+Cell[CellGroupData[{
+Cell[17678, 409, 221, 4, 39, "Subtitle",ExpressionUUID->"c686eb92-0a1d-45c1-91ce-c547984a1406"],
+Cell[17902, 415, 2723, 43, 104, "Code",ExpressionUUID->"946237fa-ae73-4eac-a93b-f00e49b53659"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
