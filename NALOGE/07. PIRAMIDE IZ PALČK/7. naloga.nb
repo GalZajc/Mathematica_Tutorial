@@ -1,0 +1,126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4770,        118]
+NotebookOptionsPosition[      3972,         96]
+NotebookOutlinePosition[      4380,        112]
+CellTagsIndexPosition[      4337,        109]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["7. NALOGA: PIRAMIDE IZ PAL\[CapitalCHacek]K", "Title",
+ CellChangeTimes->{{3.873190150495737*^9, 3.873190177644991*^9}, 
+   3.8731986256228313`*^9},ExpressionUUID->"98c21e45-ce3b-49b0-b193-\
+96e942f75641"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.8731902804061136`*^9, 
+  3.8731902814620647`*^9}},ExpressionUUID->"c01b1bb9-9dbb-46c2-8e82-\
+c5da96b72f7f"],
+
+Cell[TextData[{
+ "Imamo ve\[CHacek] kompletov po 6 pal\[CHacek]k. Dol\[ZHacek]ine vseh pal\
+\[CHacek]k iz vseh kompletov so shranjene v spremenljivki ",
+ StyleBox["KompletiPal\[CHacek]k",
+  FontWeight->"Bold"],
+ ".\nPri koliko kompletih lahko pal\[CHacek]ke zlepimo v piramido?"
+}], "Text",
+ CellChangeTimes->{{3.873190276286337*^9, 3.8731903708858232`*^9}, {
+  3.873190489508129*^9, 
+  3.8731906120359926`*^9}},ExpressionUUID->"790d451b-4f29-4eda-b021-\
+d37b7a542a12"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.873190287224083*^9, 
+  3.873190290588716*^9}},ExpressionUUID->"5633e6cb-d908-4b22-8191-\
+d5183e514465"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"KompletiPal\[CHacek]k", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+       "\"\<KompletiPal\[CHacek]k.h5\>\""}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "1"}], "}"}]}], "]"}]}], ";"}], "\n", 
+  "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.873173121794058*^9, 3.8731732853582287`*^9}, {
+   3.8731734866166277`*^9, 3.8731735048223076`*^9}, {3.8731735356782827`*^9, 
+   3.87317365027827*^9}, {3.8731737995801396`*^9, 3.873173804116169*^9}, {
+   3.8731748856515875`*^9, 3.8731748936957316`*^9}, {3.873175814072857*^9, 
+   3.8731758568960776`*^9}, {3.873175980449064*^9, 3.8731759978102016`*^9}, {
+   3.873176060276228*^9, 3.8731761119948816`*^9}, {3.873176261852111*^9, 
+   3.8731763006452875`*^9}, {3.8731763521391263`*^9, 
+   3.8731763576934032`*^9}, {3.8731764660539374`*^9, 
+   3.8731765322590523`*^9}, {3.8731768393106565`*^9, 
+   3.8731769013019238`*^9}, {3.873176979821859*^9, 3.873176989262981*^9}, {
+   3.8731770367545896`*^9, 3.8731770368605876`*^9}, {3.8731770807652063`*^9, 
+   3.8731771448629017`*^9}, {3.8731771754473*^9, 3.873177179854352*^9}, {
+   3.8731772101517267`*^9, 3.873177244922184*^9}, {3.87317730981689*^9, 
+   3.8731774403940616`*^9}, {3.873177548680982*^9, 3.873177713864064*^9}, {
+   3.873177753002267*^9, 3.8731778190186844`*^9}, {3.8731778604428844`*^9, 
+   3.8731778636028585`*^9}, {3.8731781006160135`*^9, 3.873178213025425*^9}, {
+   3.873178248903552*^9, 3.873178274609668*^9}, {3.8731880079398727`*^9, 
+   3.8731880910550327`*^9}, 3.873188161905204*^9, {3.8731883795913754`*^9, 
+   3.8731884233427563`*^9}, {3.8731886470806403`*^9, 3.873188679416747*^9}, {
+   3.8731887165014777`*^9, 3.873188720097533*^9}, {3.873188808145794*^9, 
+   3.873188866424801*^9}, {3.8731889712065487`*^9, 3.8731889713596983`*^9}, {
+   3.8731890550660896`*^9, 3.873189115757998*^9}, {3.8731891534776907`*^9, 
+   3.8731891875202065`*^9}, {3.873189712697098*^9, 3.8731897251740866`*^9}, {
+   3.8731898258949423`*^9, 3.8731898376250534`*^9}, {3.8731898729121423`*^9, 
+   3.873189876734969*^9}, 
+   3.8731907879331636`*^9},ExpressionUUID->"0b5863fc-00f7-4edf-8073-\
+f873fb3f3ac8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1428., 765.75},
+WindowMargins->{{-4.5, Automatic}, {Automatic, 100.5}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ac4e337d-a579-434a-9b7f-72030cdfb884"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 211, 3, 74, "Title",ExpressionUUID->"98c21e45-ce3b-49b0-b193-96e942f75641"],
+Cell[794, 27, 156, 3, 39, "Subtitle",ExpressionUUID->"c01b1bb9-9dbb-46c2-8e82-c5da96b72f7f"],
+Cell[953, 32, 469, 10, 45, "Text",ExpressionUUID->"790d451b-4f29-4eda-b021-d37b7a542a12"],
+Cell[CellGroupData[{
+Cell[1447, 46, 170, 3, 39, "Subtitle",ExpressionUUID->"5633e6cb-d908-4b22-8191-d5183e514465"],
+Cell[1620, 51, 2324, 41, 104, "Code",ExpressionUUID->"0b5863fc-00f7-4edf-8073-f873fb3f3ac8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,147 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5823,        139]
+NotebookOptionsPosition[      4775,        112]
+NotebookOutlinePosition[      5214,        129]
+CellTagsIndexPosition[      5171,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["9. NALOGA: MINECRAFT PRAVLJICA", "Title",
+ CellChangeTimes->{{3.8731203192608547`*^9, 
+  3.8731203350647078`*^9}},ExpressionUUID->"6bfb24f1-e2c2-407d-9fea-\
+075e916b3c5d"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.873120347711876*^9, 
+  3.873120348951985*^9}},ExpressionUUID->"44fcba2c-f864-43b6-b139-\
+877f0403f489"],
+
+Cell["\<\
+V Stringu pravljica je podana pravljica. Preberi prvih nekaj (vsaj 5) povedi, \
+naprej gre po enakem vzorcu.
+Koliko  kock je tlorisu strukture, opisane v pravljici?\
+\>", "Text",
+ CellChangeTimes->{{3.873120352750842*^9, 3.8731204330331507`*^9}, {
+  3.873120701329714*^9, 
+  3.8731209734166756`*^9}},ExpressionUUID->"f1e459f7-c45a-4942-b769-\
+fa7c50499910"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.8731216995507336`*^9, 
+  3.873121703215767*^9}},ExpressionUUID->"d67b67ad-afe6-4ec3-9090-\
+154708522ad0"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"pravljica", " ", "=", " ", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+      "\"\<pravljica.txt\>\""}], "]"}]}], ";"}], "\n", "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.873036050105677*^9, 3.873036054617383*^9}, {
+   3.8730362072360535`*^9, 3.873036251279352*^9}, {3.8730364190977325`*^9, 
+   3.873036443457271*^9}, {3.873036515053522*^9, 3.8730365369900713`*^9}, {
+   3.8730365817178755`*^9, 3.87303659926344*^9}, {3.873036666117237*^9, 
+   3.873036706329362*^9}, {3.873036807639757*^9, 3.873036846052642*^9}, {
+   3.873036882713543*^9, 3.873036893415143*^9}, {3.8730369540475364`*^9, 
+   3.8730370101441174`*^9}, 3.873037099689207*^9, {3.873037225704543*^9, 
+   3.873037237099929*^9}, {3.8730373385394354`*^9, 3.8730374749069924`*^9}, {
+   3.873037766021267*^9, 3.8730377686020126`*^9}, {3.8730378526027145`*^9, 
+   3.8730378906106305`*^9}, {3.873038017321371*^9, 3.8730380335132732`*^9}, {
+   3.873038098739053*^9, 3.8730381397359934`*^9}, {3.8730382178180523`*^9, 
+   3.873038261344578*^9}, {3.8730382919458456`*^9, 3.8730383736070805`*^9}, {
+   3.8730384113395767`*^9, 3.8730384407227297`*^9}, {3.8730384797377615`*^9, 
+   3.8730384843622785`*^9}, {3.8730385383469253`*^9, 
+   3.8730387044962225`*^9}, {3.873038759425522*^9, 3.873038863685295*^9}, {
+   3.873038969124012*^9, 3.873039012311441*^9}, {3.8730390517756147`*^9, 
+   3.873039051904248*^9}, {3.873039104870551*^9, 3.8730391570291166`*^9}, {
+   3.8730392310721416`*^9, 3.8730394046732616`*^9}, {3.873039435952874*^9, 
+   3.873039482235299*^9}, {3.8730395156469946`*^9, 3.8730395623087616`*^9}, {
+   3.873039675951133*^9, 3.873039700875295*^9}, {3.873039731873242*^9, 
+   3.8730397328765535`*^9}, {3.873039970515044*^9, 3.873040073003812*^9}, {
+   3.873040113077819*^9, 3.873040220126153*^9}, {3.8730402643839345`*^9, 
+   3.873040316386965*^9}, {3.8730404438062496`*^9, 3.873040515802016*^9}, {
+   3.8730405506747646`*^9, 3.873040622521993*^9}, {3.8730406584351387`*^9, 
+   3.873040663849659*^9}, {3.8730407019887447`*^9, 3.8730408422940507`*^9}, {
+   3.873040896427462*^9, 3.8730409288934937`*^9}, {3.873041858276516*^9, 
+   3.8730418774482956`*^9}, 3.8731219924568024`*^9},
+ NumberMarks->False,ExpressionUUID->"b4ace9a8-d2ad-4a38-9b3b-36d000df2a3c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["KOMENTAR", "Subtitle",
+ CellChangeTimes->{{3.873120347711876*^9, 3.873120348951985*^9}, {
+  3.873121003160784*^9, 
+  3.873121006696759*^9}},ExpressionUUID->"69e4e766-a2c8-4214-ac52-\
+a753bb1db4ee"],
+
+Cell["\<\
+Naloga se mogo\[CHacek]e zdi zelo za lase privle\[CHacek]ena, neuporabna. Ska\
+\[ZHacek]e pa se, da se v praksi zelo pogosto sre\[CHacek]ujemo s formati \
+(datotekami), pri katerih so stvari zapisane na \[SHacek]e dosti bolj butaste \
+na\[CHacek]ine od tega. Zato je pomembno, da znamo delati s stringi in \
+podatke v datoteki obdelati v uporabno obliko.\
+\>", "Text",
+ CellChangeTimes->{{3.8731210139608297`*^9, 3.8731212254475937`*^9}, {
+  3.8731212596493945`*^9, 3.873121328302599*^9}, {3.8731213711037383`*^9, 
+  3.8731214298329706`*^9}},ExpressionUUID->"a0069afd-fea9-4d98-abaf-\
+48656030573f"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 765.75},
+WindowMargins->{{Automatic, 106.5}, {Automatic, 215.25}},
+Magnification:>1. Inherited,
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"76cc1cd0-7e12-4af5-ae4e-2feee5935d1e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 177, 3, 74, "Title",ExpressionUUID->"6bfb24f1-e2c2-407d-9fea-075e916b3c5d"],
+Cell[760, 27, 152, 3, 39, "Subtitle",ExpressionUUID->"44fcba2c-f864-43b6-b139-877f0403f489"],
+Cell[915, 32, 367, 8, 45, "Text",ExpressionUUID->"f1e459f7-c45a-4942-b769-fa7c50499910"],
+Cell[CellGroupData[{
+Cell[1307, 44, 172, 3, 39, "Subtitle",ExpressionUUID->"d67b67ad-afe6-4ec3-9090-154708522ad0"],
+Cell[1482, 49, 2413, 38, 104, "Code",ExpressionUUID->"b4ace9a8-d2ad-4a38-9b3b-36d000df2a3c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3932, 92, 203, 4, 39, "Subtitle",ExpressionUUID->"69e4e766-a2c8-4214-ac52-a753bb1db4ee"],
+Cell[4138, 98, 609, 10, 63, "Text",ExpressionUUID->"a0069afd-fea9-4d98-abaf-48656030573f"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

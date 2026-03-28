@@ -1,0 +1,201 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7198,        193]
+NotebookOptionsPosition[      6493,        172]
+NotebookOutlinePosition[      6899,        188]
+CellTagsIndexPosition[      6856,        185]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["7. NALOGA: PIRAMIDE IZ PAL\[CapitalCHacek]K", "Title",
+ CellChangeTimes->{{3.873190150495737*^9, 3.873190177644991*^9}, 
+   3.8731986331321554`*^9},ExpressionUUID->"98c21e45-ce3b-49b0-b193-\
+96e942f75641"],
+
+Cell["RE\[CapitalSHacek]ITEV", "Subtitle",
+ CellChangeTimes->{{3.873190287224083*^9, 3.873190290588716*^9}, {
+  3.8731906906354103`*^9, 
+  3.8731906926530247`*^9}},ExpressionUUID->"5633e6cb-d908-4b22-8191-\
+d5183e514465"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"KompletiPal\[CHacek]k", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+       "\"\<KompletiPal\[CHacek]k.h5\>\""}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "1"}], "}"}]}], "]"}]}], ";"}], "\n", 
+  "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"perm0", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", "     ", 
+       RowBox[{"(*", 
+        RowBox[{"tukej", " ", "lahko", " ", "2", " ", "razli\[CHacek]ni", " ", 
+         RowBox[{"perm", ".", " ", "predstavljata"}], " ", "isto", " ", 
+         "piramido"}], "*)"}], "\n", "\t", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "5", ",", "4"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"2", ",", "6", ",", "5"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"3", ",", "4", ",", "6"}], "}"}]}], "}"}], "/.", "\n", 
+        "\t", 
+        RowBox[{"Thread", "[", 
+         RowBox[{
+          RowBox[{"Range", "@", "6"}], "->", "#"}], "]"}]}], "\n", ")"}], 
+      "&"}], "/@", 
+     RowBox[{"Permutations", "[", 
+      RowBox[{"Range", "@", "6"}], "]"}]}]}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"perm", "=", 
+    RowBox[{"DeleteDuplicates", "@", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Sort", ",", "perm0", ",", "2"}], "]"}]}]}], ";"}], "\n", "\n", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Vse", " ", "mo\[ZHacek]nosti"}], ",", " ", 
+    RowBox[{
+    "kako", " ", "lahko", " ", "razvrstimo", " ", "pal\[CHacek]ke", " ", "za",
+      " ", "sestavit", " ", "piramido"}]}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"MordaPiramide", "[", "lRobovi_", "]"}], ":=", 
+    RowBox[{"perm", "/.", 
+     RowBox[{"Thread", "[", 
+      RowBox[{
+       RowBox[{"Range", "@", "6"}], "->", "lRobovi"}], "]"}]}]}], ";"}], 
+  "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"TrikotnikQ", "[", "stranice_", "]"}], ":=", 
+    RowBox[{"(", "\n", "\t", 
+     RowBox[{
+      RowBox[{"posortirane", " ", "=", " ", 
+       RowBox[{"Sort", "@", "stranice"}]}], ";", "\n", "\t", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"posortirane", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "+", 
+        RowBox[{"posortirane", "[", 
+         RowBox[{"[", "2", "]"}], "]"}]}], ">", 
+       RowBox[{"posortirane", "[", 
+        RowBox[{"[", "3", "]"}], "]"}]}]}], "\n", ")"}]}], ";"}], 
+  "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PiramidaQ", "[", "MordaTrikotniki_", "]"}], ":=", 
+   RowBox[{"And", "@@", 
+    RowBox[{"(", 
+     RowBox[{"TrikotnikQ", "/@", "MordaTrikotniki"}], ")"}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"PiramidaQR", "[", "Robovi_", "]"}], ":=", 
+    RowBox[{"Or", "@@", 
+     RowBox[{"(", 
+      RowBox[{"PiramidaQ", "/@", 
+       RowBox[{"MordaPiramide", "[", "Robovi", "]"}]}], ")"}]}]}], ";"}], 
+  "\n"}], "\n", 
+ RowBox[{"Count", "[", "\n", "\t", 
+  RowBox[{
+   RowBox[{"ParallelMap", "[", 
+    RowBox[{"PiramidaQR", ",", "KompletiPal\[CHacek]k"}], "]"}], ",", "\n", 
+   "\t", "True"}], "\n", "]"}]}], "Code",
+ CellChangeTimes->{{3.873173121794058*^9, 3.8731732853582287`*^9}, {
+   3.8731734866166277`*^9, 3.8731735048223076`*^9}, {3.8731735356782827`*^9, 
+   3.87317365027827*^9}, {3.8731737995801396`*^9, 3.873173804116169*^9}, {
+   3.8731748856515875`*^9, 3.8731748936957316`*^9}, {3.873175814072857*^9, 
+   3.8731758568960776`*^9}, {3.873175980449064*^9, 3.8731759978102016`*^9}, {
+   3.873176060276228*^9, 3.8731761119948816`*^9}, {3.873176261852111*^9, 
+   3.8731763006452875`*^9}, {3.8731763521391263`*^9, 
+   3.8731763576934032`*^9}, {3.8731764660539374`*^9, 
+   3.8731765322590523`*^9}, {3.8731768393106565`*^9, 
+   3.8731769013019238`*^9}, {3.873176979821859*^9, 3.873176989262981*^9}, {
+   3.8731770367545896`*^9, 3.8731770368605876`*^9}, {3.8731770807652063`*^9, 
+   3.8731771448629017`*^9}, {3.8731771754473*^9, 3.873177179854352*^9}, {
+   3.8731772101517267`*^9, 3.873177244922184*^9}, {3.87317730981689*^9, 
+   3.8731774403940616`*^9}, {3.873177548680982*^9, 3.873177713864064*^9}, {
+   3.873177753002267*^9, 3.8731778190186844`*^9}, {3.8731778604428844`*^9, 
+   3.8731778636028585`*^9}, {3.8731781006160135`*^9, 3.873178213025425*^9}, {
+   3.873178248903552*^9, 3.873178274609668*^9}, {3.8731880079398727`*^9, 
+   3.8731880910550327`*^9}, 3.873188161905204*^9, {3.8731883795913754`*^9, 
+   3.8731884233427563`*^9}, {3.8731886470806403`*^9, 3.873188679416747*^9}, {
+   3.8731887165014777`*^9, 3.873188720097533*^9}, {3.873188808145794*^9, 
+   3.873188866424801*^9}, {3.8731889712065487`*^9, 3.8731889713596983`*^9}, {
+   3.8731890550660896`*^9, 3.873189115757998*^9}, {3.8731891534776907`*^9, 
+   3.8731891875202065`*^9}, {3.873189712697098*^9, 3.8731897251740866`*^9}, {
+   3.8731898258949423`*^9, 3.8731898376250534`*^9}, {3.8731898729121423`*^9, 
+   3.873189876734969*^9}},
+ CellLabel->
+  "In[592]:=",ExpressionUUID->"0b5863fc-00f7-4edf-8073-f873fb3f3ac8"],
+
+Cell[BoxData["4601"], "Output",
+ CellChangeTimes->{
+  3.8731897046114407`*^9, {3.8731898853264146`*^9, 3.8731899122064967`*^9}},
+ CellLabel->
+  "Out[600]=",ExpressionUUID->"fd01a912-0388-4845-a326-f3a3328435aa"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1428., 765.75},
+WindowMargins->{{-5.25, Automatic}, {Automatic, 57}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"57f17602-410b-4e81-9d97-79814da493a3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 211, 3, 74, "Title",ExpressionUUID->"98c21e45-ce3b-49b0-b193-96e942f75641"],
+Cell[794, 27, 221, 4, 39, "Subtitle",ExpressionUUID->"5633e6cb-d908-4b22-8191-d5183e514465"],
+Cell[CellGroupData[{
+Cell[1040, 35, 5211, 127, 381, "Code",ExpressionUUID->"0b5863fc-00f7-4edf-8073-f873fb3f3ac8"],
+Cell[6254, 164, 211, 4, 24, "Output",ExpressionUUID->"fd01a912-0388-4845-a326-f3a3328435aa"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
