@@ -1,0 +1,191 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6447,        183]
+NotebookOptionsPosition[      4968,        152]
+NotebookOutlinePosition[      5378,        168]
+CellTagsIndexPosition[      5335,        165]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["4. NALOGA: RUBIKOV PRAVOKOTNIK", "Title",
+ CellChangeTimes->{{3.8732188924153147`*^9, 
+  3.8732189702861795`*^9}},ExpressionUUID->"10d00a11-867e-41cd-8faf-\
+642b513d1139"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.87321897605646*^9, 
+  3.873218978119828*^9}},ExpressionUUID->"e3ec796e-475c-4fbc-a929-\
+400702096545"],
+
+Cell[TextData[{
+ "Preme\[SHacek]ali bomo rubikov pravokotnik (RP). Kaj to je, vidite tukaj: \
+https://loopover.xyz/. Namesto \[CHacek]rk bomo uporabljali zaporedna naravna \
+\[SHacek]tevila. Dimenzije ({vrstice, stolpci}) na\[SHacek]ega RP so ",
+ StyleBox["dim",
+  FontWeight->"Bold"],
+ ".\nMe\[SHacek]anje je zapisano v matriki  ",
+ StyleBox["premiki",
+  FontWeight->"Bold"],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.8732190212215853`*^9, 3.873219076703661*^9}, {
+  3.8732191941667027`*^9, 3.873219429916744*^9}, {3.873219460196128*^9, 
+  3.8732195163655663`*^9}, {3.8732195762932034`*^9, 3.8732196023487434`*^9}, {
+  3.8732196369970007`*^9, 3.873219990901013*^9}, {3.873220093775735*^9, 
+  3.87322012695259*^9}},ExpressionUUID->"cc47da24-618b-4c96-8a2c-\
+cb8de218f827"],
+
+Cell[TextData[{
+ "Vrstice od ",
+ StyleBox["premiki",
+  FontWeight->"Bold"],
+ " predstavljajo zaporedne korake me\[SHacek]anja."
+}], "Item",
+ CellChangeTimes->{{3.873219997645348*^9, 
+  3.873220008008006*^9}},ExpressionUUID->"fef667d3-da08-42a0-8f4f-\
+64a323e6a569"],
+
+Cell[TextData[{
+ "1. stolpec od ",
+ StyleBox["premiki",
+  FontWeight->"Bold"],
+ " je 1, \[CHacek]e vrtimo vrstico in 2, \[CHacek]e vrtimo stolpec RP."
+}], "Item",
+ CellChangeTimes->{{3.873219997645348*^9, 3.873220022534212*^9}, 
+   3.8732201782754393`*^9},ExpressionUUID->"59c31121-199d-4193-aade-\
+fde7befa772c"],
+
+Cell[TextData[{
+ "2. stolpec od ",
+ StyleBox["premiki",
+  FontWeight->"Bold"],
+ " je indeks vrstice oz. stolpca iz RP, ki ga vrtimo"
+}], "Item",
+ CellChangeTimes->{{3.873219997645348*^9, 3.8732200630394983`*^9}, {
+  3.873220186547471*^9, 
+  3.8732201937573943`*^9}},ExpressionUUID->"cb38efc5-8d83-4dda-b7bd-\
+0dbde01b8ba5"],
+
+Cell[TextData[{
+ "3. stolpec od ",
+ StyleBox["premiki",
+  FontWeight->"Bold"],
+ " pove za koliko polj zavrtimo. Pozitivni smeri sta desno in dol."
+}], "Item",
+ CellChangeTimes->{{3.873219997645348*^9, 3.8732200630394983`*^9}, {
+   3.873220186547471*^9, 3.873220226747303*^9}, {3.8732203059401083`*^9, 
+   3.87322033499777*^9}, 
+   3.873220370653763*^9},ExpressionUUID->"eb5c3e9c-118b-4ca5-b812-\
+2389643dc2b9"],
+
+Cell["Koliko polj po me\[SHacek]anju ostane na istem mestu, kot prej?", "Text",
+ CellChangeTimes->{{3.8732203751481285`*^9, 
+  3.873220406389165*^9}},ExpressionUUID->"797f0eeb-2d7b-4658-8508-\
+f0de5c1f9a97"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.8732189892055006`*^9, 
+  3.8732189957752604`*^9}},ExpressionUUID->"f34d087d-c9ad-4e3f-989d-\
+af27e35ba96a"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"dim", "=", 
+   RowBox[{"{", 
+    RowBox[{"50", ",", "40"}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"premiki", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<premiki.h5\>\""}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Data\>\"", ",", "1"}], "}"}]}], "]"}]}], ";"}], "\n", 
+  "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.8732161863513985`*^9, 3.873216333742979*^9}, {
+   3.873216410020555*^9, 3.8732164269987*^9}, {3.8732164623606634`*^9, 
+   3.87321648880754*^9}, 3.8732165193806286`*^9, {3.873216717851569*^9, 
+   3.87321673481433*^9}, {3.873217513032869*^9, 3.8732175142458577`*^9}, {
+   3.8732182870351696`*^9, 3.8732183016486197`*^9}, {3.8732186293223486`*^9, 
+   3.8732187162795305`*^9}, 
+   3.873220635469228*^9},ExpressionUUID->"3f4e5587-180f-4c3e-bbd7-\
+daf06c8064db"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["DODATNO", "Subtitle",
+ CellChangeTimes->{{3.8732189892055006`*^9, 3.8732189957752604`*^9}, {
+  3.873220447647416*^9, 
+  3.8732204499504576`*^9}},ExpressionUUID->"c4c78e68-724f-47ad-ab32-\
+340637172d4a"],
+
+Cell["\<\
+Ko bo\[SHacek] dobro znal Mathematico, lahko poskusi\[SHacek] sprogramirati \
+re\[SHacek]evanje rubikovih kock.\
+\>", "Text",
+ CellChangeTimes->{{3.8732204556713567`*^9, 
+  3.873220534169256*^9}},ExpressionUUID->"cc732ef2-181e-48c0-8fc1-\
+2c28b03712ca"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{569.25, 609.75},
+WindowMargins->{{391.5, Automatic}, {60.75, Automatic}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b6afcbbe-45d5-41a8-998a-e969f20c3433"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 177, 3, 74, "Title",ExpressionUUID->"10d00a11-867e-41cd-8faf-642b513d1139"],
+Cell[760, 27, 151, 3, 39, "Subtitle",ExpressionUUID->"e3ec796e-475c-4fbc-a929-400702096545"],
+Cell[914, 32, 769, 16, 63, "Text",ExpressionUUID->"cc47da24-618b-4c96-8a2c-cb8de218f827"],
+Cell[1686, 50, 265, 8, 25, "Item",ExpressionUUID->"fef667d3-da08-42a0-8f4f-64a323e6a569"],
+Cell[1954, 60, 313, 8, 25, "Item",ExpressionUUID->"59c31121-199d-4193-aade-fde7befa772c"],
+Cell[2270, 70, 323, 9, 25, "Item",ExpressionUUID->"cb38efc5-8d83-4dda-b7bd-0dbde01b8ba5"],
+Cell[2596, 81, 410, 10, 25, "Item",ExpressionUUID->"eb5c3e9c-118b-4ca5-b812-2389643dc2b9"],
+Cell[3009, 93, 207, 3, 27, "Text",ExpressionUUID->"797f0eeb-2d7b-4658-8508-f0de5c1f9a97"],
+Cell[CellGroupData[{
+Cell[3241, 100, 174, 3, 39, "Subtitle",ExpressionUUID->"f34d087d-c9ad-4e3f-989d-af27e35ba96a"],
+Cell[3418, 105, 1011, 26, 117, "Code",ExpressionUUID->"3f4e5587-180f-4c3e-bbd7-daf06c8064db"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4466, 136, 208, 4, 39, "Subtitle",ExpressionUUID->"c4c78e68-724f-47ad-ab32-340637172d4a"],
+Cell[4677, 142, 263, 6, 27, "Text",ExpressionUUID->"cc732ef2-181e-48c0-8fc1-2c28b03712ca"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

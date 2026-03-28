@@ -1,0 +1,146 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4378,        138]
+NotebookOptionsPosition[      3586,        116]
+NotebookOutlinePosition[      3987,        132]
+CellTagsIndexPosition[      3944,        129]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["1. NALOGA: POT DO TRKA", "Title",
+ CellChangeTimes->{{3.8719154761225204`*^9, 3.8719154933564835`*^9}, {
+  3.8719156088528633`*^9, 3.871915621662498*^9}, {3.871916622319726*^9, 
+  3.871916626583483*^9}},ExpressionUUID->"ed635eff-ed1f-4435-893c-\
+934ffdc21614"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.8723514654888964`*^9, 
+  3.8723514674727645`*^9}},ExpressionUUID->"2fec150f-0a00-422a-9263-\
+32496effa0dc"],
+
+Cell[TextData[{
+ "Imamo kroglici s polmeroma R1 in R2. Njuni za\[CHacek]etni legi sta ",
+ StyleBox["r01",
+  FontWeight->"Bold"],
+ " in ",
+ StyleBox["r02",
+  FontWeight->"Bold"],
+ ", hitrosti pa ",
+ StyleBox["v01",
+  FontWeight->"Bold"],
+ " in ",
+ StyleBox["v02",
+  FontWeight->"Bold"],
+ ". Nanju deluje le te\[ZHacek]ni pospe\[SHacek]ek ",
+ StyleBox["g",
+  FontWeight->"Bold"],
+ ". Kolik\[SHacek]no pot prepotuje te\[ZHacek]i\[SHacek]\[CHacek]e prve \
+kroglice do trka kroglic?"
+}], "Text",
+ CellChangeTimes->{{3.8732847422504854`*^9, 
+  3.8732847558815174`*^9}},ExpressionUUID->"5041536e-8cf3-4585-a10f-\
+160a22e24f10"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.8723515007287917`*^9, 3.8723515071508102`*^9}, {
+  3.87311924482316*^9, 
+  3.8731192724544563`*^9}},ExpressionUUID->"cc1a62d0-f86a-4e82-858d-\
+563d562577aa"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"g", "=", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", 
+     RowBox[{"-", "9.81"}]}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"R1", "=", "1"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"R2", "=", "2"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"r01", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "7"}], ",", 
+     RowBox[{"-", "14"}], ",", 
+     RowBox[{"-", "261.345"}]}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"r02", "=", 
+   RowBox[{"{", 
+    RowBox[{"45", ",", "35", ",", 
+     RowBox[{"-", "212.345"}]}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"v01", "=", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "71.67"}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"v02", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "6"}], ",", 
+      RowBox[{"-", "5"}], ",", "64.67"}], "}"}]}], ";"}], "\n", 
+  "\n"}], "\n"}], "Code",
+ CellChangeTimes->{
+  3.8719206818431377`*^9, {3.8719208100889535`*^9, 3.8719208216417236`*^9}, 
+   3.8719208617537932`*^9, 3.8719209118196163`*^9, {3.8719212889657097`*^9, 
+   3.8719213441451826`*^9}, {3.8719213753266363`*^9, 
+   3.8719214180177674`*^9}, {3.8719214535090675`*^9, 3.871921478205968*^9}, {
+   3.8719215092893114`*^9, 3.8719215264503*^9}, {3.871921587222723*^9, 
+   3.8719217042646456`*^9}, {3.8719217858425455`*^9, 
+   3.8719218293592143`*^9}, {3.871921871542038*^9, 3.871921872921384*^9}, {
+   3.871921908045333*^9, 3.8719220270092483`*^9}, {3.871922983623762*^9, 
+   3.871922988041797*^9}, 
+   3.87192310008011*^9},ExpressionUUID->"c4237f6a-2a44-4266-945f-\
+5c2a13dc2e40"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 765.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"df80b307-1e4d-4a90-b2f7-ebe38ff7196d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 266, 4, 74, "Title",ExpressionUUID->"ed635eff-ed1f-4435-893c-934ffdc21614"],
+Cell[849, 28, 156, 3, 39, "Subtitle",ExpressionUUID->"2fec150f-0a00-422a-9263-32496effa0dc"],
+Cell[1008, 33, 620, 21, 45, "Text",ExpressionUUID->"5041536e-8cf3-4585-a10f-160a22e24f10"],
+Cell[CellGroupData[{
+Cell[1653, 58, 224, 4, 39, "Subtitle",ExpressionUUID->"cc1a62d0-f86a-4e82-858d-563d562577aa"],
+Cell[1880, 64, 1678, 48, 183, "Code",ExpressionUUID->"c4237f6a-2a44-4266-945f-5c2a13dc2e40"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
