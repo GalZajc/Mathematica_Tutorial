@@ -1,0 +1,112 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3504,        104]
+NotebookOptionsPosition[      2684,         81]
+NotebookOutlinePosition[      3115,         98]
+CellTagsIndexPosition[      3072,         95]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["15. NALOGA: NEZNANI VRTE\[CapitalCHacek]I PREDMET", "Title",
+ CellChangeTimes->{{3.8732821285054655`*^9, 
+  3.8732821493780622`*^9}},ExpressionUUID->"7c0dee9e-d9dd-4457-a6be-\
+8445deca646d"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.873282174752755*^9, 
+  3.8732821799299364`*^9}},ExpressionUUID->"5c995806-db80-4a8f-995f-\
+cc552eb197a1"],
+
+Cell[TextData[{
+ "Dan je posnetek  video, neznanega vrte\[CHacek]ega predmeta (NVP). Posnet \
+je v fps slikah na sekundo. Poi\[SHacek]\[CHacek]i lokalno maksimalne \
+velikosti kotne hitrosti NVP-ja.\n Za re\[SHacek]itev naloge se\[SHacek]tej \
+te kotne hitrosti in to zaokro\[ZHacek]i na ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"15", 
+    SuperscriptBox["s", 
+     RowBox[{"-", "1"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b483af1a-f9af-47e8-bc68-87a7e7cb2908"],
+ ". Eksperimentiraj, pomagaj si z ListLinePlot."
+}], "Text",
+ CellChangeTimes->{{3.873284960803858*^9, 
+  3.8732850206191015`*^9}},ExpressionUUID->"591474c1-1e80-4109-9c16-\
+a3119da39f4c"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.873284054320921*^9, 
+  3.8732840567199306`*^9}},ExpressionUUID->"83314cf5-f415-4cb9-9c65-\
+6353842e2971"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"fps", "=", "60"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"video", "=", 
+    RowBox[{"Video", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", 
+      "\"\<znani vrte\[CHacek]i predmet.mp4\>\""}], "]"}]}], ";"}], "\n", 
+  "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.8732576732395678`*^9, 3.873257693447732*^9}, 
+   3.8732577382626157`*^9, {3.873257804405842*^9, 3.873257821469617*^9}, 
+   3.8732592015089493`*^9, {3.87327468355589*^9, 3.873274732131997*^9}, {
+   3.8732749189310913`*^9, 3.8732749254432583`*^9}, 3.873274961385285*^9, {
+   3.8732752245609736`*^9, 3.873275226448056*^9}, 
+   3.8732840753129663`*^9},ExpressionUUID->"f836dbbe-d37a-488e-91c0-\
+676353491a8c"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1428., 765.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.1 Inherited,
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a94318b8-9ce6-4bcf-9dbb-02b2e70234be"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 196, 3, 81, "Title",ExpressionUUID->"7c0dee9e-d9dd-4457-a6be-8445deca646d"],
+Cell[779, 27, 154, 3, 44, "Subtitle",ExpressionUUID->"5c995806-db80-4a8f-995f-cc552eb197a1"],
+Cell[936, 32, 685, 16, 48, "Text",ExpressionUUID->"591474c1-1e80-4109-9c16-a3119da39f4c"],
+Cell[CellGroupData[{
+Cell[1646, 52, 172, 3, 44, "Subtitle",ExpressionUUID->"83314cf5-f415-4cb9-9c65-6353842e2971"],
+Cell[1821, 57, 835, 20, 129, "Code",ExpressionUUID->"f836dbbe-d37a-488e-91c0-676353491a8c"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

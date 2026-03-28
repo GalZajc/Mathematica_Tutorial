@@ -1,0 +1,9 @@
+--- Start of logging Updater ---
+12:55:28.654 - [Info Gathering] Current server Ip: 192.168.112.83
+12:55:28.660 - [Info Gathering] Port: 12134
+12:55:28.686 - [Info Gathering] Touch Portal is NOT running.
+12:55:28.689 - [Info Gathering] Current Touch Portal Version: 203010
+12:55:28.688 - [Execution] Starting update thread.
+12:55:28.691 - [Info Gathering] Updating track: 1
+12:55:28.693 - [Info Gathering] Local sub version: 1
+12:55:32.126 - [Execution] Exiting, Somewhere in the process an unexpected error occurred: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target

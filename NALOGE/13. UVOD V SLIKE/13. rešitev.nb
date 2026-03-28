@@ -1,0 +1,148 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4800,        140]
+NotebookOptionsPosition[      4101,        119]
+NotebookOutlinePosition[      4502,        135]
+CellTagsIndexPosition[      4459,        132]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["13. NALOGA: UVOD V SLIKE", "Title",
+ CellChangeTimes->{{3.8730958217217865`*^9, 
+  3.8730958349681053`*^9}},ExpressionUUID->"11d3cbe8-b31e-4627-87bc-\
+457e786e00c1"],
+
+Cell["RE\[CapitalSHacek]ITEV", "Subtitle",
+ CellChangeTimes->{{3.8730958508614426`*^9, 3.8730958531274824`*^9}, {
+  3.873123303139064*^9, 
+  3.8731233063310723`*^9}},ExpressionUUID->"e6a72b34-5a37-49ac-a9ae-\
+5fba111593af"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"s", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<slika.png\>\""}], 
+     "]"}]}], ";"}], "\n", "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"RID", ",", "GID", ",", "BID", ",", "\[Alpha]ID"}], "}"}], "=", 
+    RowBox[{"Transpose", "[", "\n", "\t", 
+     RowBox[{
+      RowBox[{"ImageData", "@", "s"}], ",", "\n", 
+      RowBox[{"InversePermutation", "@", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "1", ",", "2"}], "}"}]}]}], "]"}]}], ";"}], "\n", 
+  "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"-", "1"}], "+", 
+  RowBox[{"Count", "[", "\n", "\t", 
+   RowBox[{
+    RowBox[{"DeleteAdjacentDuplicates", "@", "\n", "\t\t", 
+     RowBox[{"Join", "[", 
+      RowBox[{
+       RowBox[{"RID", "[", 
+        RowBox[{"[", 
+         RowBox[{";;", ",", "1"}], "]"}], "]"}], ",", 
+       RowBox[{"RID", "[", 
+        RowBox[{"[", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", ";;"}], "]"}], "]"}]}], "]"}]}], ",", "\n",
+     "0."}], "]"}], "+", "\n", "\n", 
+  RowBox[{"Length", "@", 
+   RowBox[{"DeleteDuplicates", "@", 
+    RowBox[{"Flatten", "@", "GID"}]}]}], "+", "\n", "\n", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"KordE", "=", 
+     RowBox[{"Position", "[", 
+      RowBox[{
+       RowBox[{"Round", "@", "BID"}], ",", "0"}], "]"}]}], ";", "\n", 
+    RowBox[{"RazdOdSred", "=", 
+     RowBox[{"Norm", "/@", 
+      RowBox[{"(", 
+       RowBox[{"KordE", "-", 
+        RowBox[{"Threaded", "[", 
+         RowBox[{
+          RowBox[{"N", "@", 
+           RowBox[{"Mean", "@", "KordE"}]}], ",", "2"}], "]"}]}], ")"}]}]}], 
+    ";", "\n", 
+    RowBox[{"Round", "@", 
+     FractionBox[
+      RowBox[{"Max", "@", "RazdOdSred"}], 
+      RowBox[{"Min", "@", "RazdOdSred"}]]}]}], ")"}], "+", "\n", "\n", 
+  RowBox[{"Mean", "@", 
+   RowBox[{"Mean", "@", "\[Alpha]ID"}]}], "+", "\n", 
+  RowBox[{"StandardDeviation", "@", 
+   RowBox[{"Flatten", "@", "\[Alpha]ID"}]}]}]}], "Code",
+ CellChangeTimes->{{3.8730945953833466`*^9, 3.873094606944707*^9}, {
+  3.873094671645832*^9, 3.873094675117717*^9}, {3.873094713022297*^9, 
+  3.8730947384697804`*^9}, {3.8730948265460114`*^9, 3.873094882927494*^9}, {
+  3.8730950899441304`*^9, 3.873095117549533*^9}, {3.873095243840941*^9, 
+  3.87309525995024*^9}, {3.8730952979645414`*^9, 3.8730952981954255`*^9}, {
+  3.8730953970228357`*^9, 3.8730954369841127`*^9}, {3.8730954691201997`*^9, 
+  3.873095480328498*^9}, {3.8730955493501825`*^9, 3.87309565017386*^9}, {
+  3.873095690755409*^9, 3.8730956928781824`*^9}, {3.8730964650758953`*^9, 
+  3.873096467094882*^9}},
+ CellLabel->
+  "In[204]:=",ExpressionUUID->"9d1977b6-44e8-4da3-8dff-a2dd9cf30474"],
+
+Cell[BoxData["510.95769131813523`"], "Output",
+ CellChangeTimes->{{3.873095579896433*^9, 3.8730956215690336`*^9}, 
+   3.873095655979236*^9, 3.873095701163851*^9, 3.8730957316971865`*^9},
+ CellLabel->
+  "Out[207]=",ExpressionUUID->"0d39ca4d-ffe6-4b71-a746-fec38666d3b2"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 765.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"bfc44b80-291e-41af-aedd-2d7ee66b5fbb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 171, 3, 74, "Title",ExpressionUUID->"11d3cbe8-b31e-4627-87bc-457e786e00c1"],
+Cell[754, 27, 223, 4, 39, "Subtitle",ExpressionUUID->"e6a72b34-5a37-49ac-a9ae-5fba111593af"],
+Cell[CellGroupData[{
+Cell[1002, 35, 2799, 74, 364, "Code",ExpressionUUID->"9d1977b6-44e8-4da3-8dff-a2dd9cf30474"],
+Cell[3804, 111, 269, 4, 24, "Output",ExpressionUUID->"0d39ca4d-ffe6-4b71-a746-fec38666d3b2"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

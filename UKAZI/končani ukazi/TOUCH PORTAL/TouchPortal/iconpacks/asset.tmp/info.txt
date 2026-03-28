@@ -1,0 +1,4 @@
+name=Arbi Resolve Workspace Pack
+author=Arbi Barbarona
+link=www.facebook.com/arbibarbarona
+bgcolor=##2f2f30

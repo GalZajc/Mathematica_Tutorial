@@ -1,0 +1,143 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5062,        135]
+NotebookOptionsPosition[      3817,        108]
+NotebookOutlinePosition[      4218,        124]
+CellTagsIndexPosition[      4175,        121]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["13. NALOGA: UVOD V SLIKE", "Title",
+ CellChangeTimes->{{3.8730958217217865`*^9, 
+  3.8730958349681053`*^9}},ExpressionUUID->"11d3cbe8-b31e-4627-87bc-\
+457e786e00c1"],
+
+Cell["NALOGA", "Subtitle",
+ CellChangeTimes->{{3.8730958410955105`*^9, 
+  3.873095842071315*^9}},ExpressionUUID->"7d6d0892-140b-47f8-86ff-\
+a0bf659aa666"],
+
+Cell["Dana je slika s. Re\[SHacek]i 4 naloge za 4 barvne kanale slike:", \
+"Text",
+ CellChangeTimes->{{3.8730958686720486`*^9, 3.8730959413398323`*^9}, {
+  3.8730963008840585`*^9, 
+  3.8730963019167595`*^9}},ExpressionUUID->"921d3f27-8aa7-422f-b2a5-\
+bf1d56d8f678"],
+
+Cell["V rde\[CHacek]em kanalu pre\[SHacek]tej tanke \[CHacek]rte", "Item",
+ CellChangeTimes->{{3.873095947313855*^9, 
+  3.8730959849913645`*^9}},ExpressionUUID->"f0fa1758-4107-43b4-8755-\
+e44b3feb232e"],
+
+Cell["V zelenem kanalu pre\[SHacek]tej koliko je razli\[CHacek]nih \
+svetlosti", "Item",
+ CellChangeTimes->{{3.873095947313855*^9, 
+  3.87309605469921*^9}},ExpressionUUID->"914777c4-a6d2-4fba-a197-\
+03aec0d4c422"],
+
+Cell["\<\
+V modrem kanalu poi\[SHacek]\[CHacek]i razmerje med dalj\[SHacek]o in kraj\
+\[SHacek]o polosjo elipse in ga zaokro\[ZHacek]i na celo \[SHacek]t.\
+\>", "Item",
+ CellChangeTimes->{{3.873095947313855*^9, 3.873096025122549*^9}, {
+  3.8730960654390435`*^9, 
+  3.8730961786249475`*^9}},ExpressionUUID->"c254bbce-8bc5-4458-be76-\
+f7b9d93ed8e9"],
+
+Cell["\<\
+V \[Alpha] kanalu izra\[CHacek]unaj vsoto povpre\[CHacek]ne svetlosti in \
+standardnega odklona svetlosti  \
+\>", "Item",
+ CellChangeTimes->{{3.873095947313855*^9, 3.873096025122549*^9}, {
+  3.8730960654390435`*^9, 
+  3.8730962556927567`*^9}},ExpressionUUID->"5bf27997-2242-4444-afe7-\
+51759569f38a"],
+
+Cell["\<\
+Re\[SHacek]itev naloge je vsota re\[SHacek]itev podnalog. Re\[SHacek]itve \
+podnalog so dolge 1-3 vrstice: ne komplicirat. \
+\>", "Text",
+ CellChangeTimes->{{3.873096331980957*^9, 
+  3.873096441597472*^9}},ExpressionUUID->"b57debad-2d1e-4c4f-97e5-\
+f305dc1981c6"],
+
+Cell[CellGroupData[{
+
+Cell["RE\[CapitalSHacek]EVANJE", "Subtitle",
+ CellChangeTimes->{{3.8730958508614426`*^9, 
+  3.8730958531274824`*^9}},ExpressionUUID->"e6a72b34-5a37-49ac-a9ae-\
+5fba111593af"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"s", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<slika.png\>\""}], 
+     "]"}]}], ";"}], "\n", "\n"}], "\n"}], "Code",
+ CellChangeTimes->{{3.8730945953833466`*^9, 3.873094606944707*^9}, {
+  3.873094671645832*^9, 3.873094675117717*^9}, {3.873094713022297*^9, 
+  3.8730947384697804`*^9}, {3.8730948265460114`*^9, 3.873094882927494*^9}, {
+  3.8730950899441304`*^9, 3.873095117549533*^9}, {3.873095243840941*^9, 
+  3.87309525995024*^9}, {3.8730952979645414`*^9, 3.8730952981954255`*^9}, {
+  3.8730953970228357`*^9, 3.8730954369841127`*^9}, {3.8730954691201997`*^9, 
+  3.873095480328498*^9}, {3.8730955493501825`*^9, 3.87309565017386*^9}, {
+  3.873095690755409*^9, 3.8730956928781824`*^9}, {3.8730964650758953`*^9, 
+  3.873096467094882*^9}, {3.8730965066696577`*^9, 
+  3.8730965082200584`*^9}},ExpressionUUID->"9d1977b6-44e8-4da3-8dff-\
+a2dd9cf30474"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 765.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"285ffb61-8585-4e48-b563-7e50bb87ae0f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 171, 3, 74, "Title",ExpressionUUID->"11d3cbe8-b31e-4627-87bc-457e786e00c1"],
+Cell[754, 27, 154, 3, 39, "Subtitle",ExpressionUUID->"7d6d0892-140b-47f8-86ff-a0bf659aa666"],
+Cell[911, 32, 265, 5, 27, "Text",ExpressionUUID->"921d3f27-8aa7-422f-b2a5-bf1d56d8f678"],
+Cell[1179, 39, 202, 3, 25, "Item",ExpressionUUID->"f0fa1758-4107-43b4-8755-e44b3feb232e"],
+Cell[1384, 44, 213, 4, 25, "Item",ExpressionUUID->"914777c4-a6d2-4fba-a197-03aec0d4c422"],
+Cell[1600, 50, 347, 7, 25, "Item",ExpressionUUID->"c254bbce-8bc5-4458-be76-f7b9d93ed8e9"],
+Cell[1950, 59, 310, 7, 25, "Item",ExpressionUUID->"5bf27997-2242-4444-afe7-51759569f38a"],
+Cell[2263, 68, 273, 6, 27, "Text",ExpressionUUID->"b57debad-2d1e-4c4f-97e5-f305dc1981c6"],
+Cell[CellGroupData[{
+Cell[2561, 78, 174, 3, 39, "Subtitle",ExpressionUUID->"e6a72b34-5a37-49ac-a9ae-5fba111593af"],
+Cell[2738, 83, 1051, 21, 104, "Code",ExpressionUUID->"9d1977b6-44e8-4da3-8dff-a2dd9cf30474"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
